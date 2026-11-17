@@ -21,8 +21,8 @@
 }
 /*Estilo Desktop*/
 body{
-    background-color: #0b1619;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #0b1619;
 }
 header img{
     display: block;
@@ -76,6 +76,7 @@ img{
     width: 792px;
     height: 466px
 }
+/*Tablet*/
 @media (max-width: 768px) {
     header img {
         margin: 65px 0 0 60px;
@@ -84,7 +85,7 @@ img{
         width: 648px;
     }
 }
-
+/*Celular*/
 @media (max-width: 375px) {
     header img {
         margin: 32px 0 0 16px;
